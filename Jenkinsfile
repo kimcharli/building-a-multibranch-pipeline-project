@@ -20,6 +20,5 @@ pipeline {
   }
   environment {
     CI = 'true'
-    DOCKER_HOST = 'tcp://10.85.192.2:2375'
   }
 }
